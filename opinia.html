@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta title="autor" content="Krzyszof Paździor">
     <title>Moje Hobby</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="opinia.css">
     <script src="main.js" defer></script>
 </head>
 <body>
     <header>
         <h1>
-            MOJE ZAINTERESOWANIA
+            OPINIA
         </h1>
     </header>
     <main>
@@ -30,10 +30,20 @@
           </div>
           <div class="content">
           <section>
-                <p>
-                  Nazywam się Krzyś mam 15 lat i chodzę do technikum techniczno-inforamatycznego w Gliwicach.  Aktualnie jestem w pierwszej klasie więc dopiero rozpoczynam swoją edukację w tej szkole. Interesuję się programowaniem oraz projektowaniem stron internetowych. Poza tym od pewnego czaasu chodzę na siłownię co również zostało jedną z moich pasii.
-                </p>
-                <img src="imgs/zsti.jpg" alt="">
+                <h2>Przeslij Opinie</h2>
+                <form>
+                    <label for="lname">Imie i nazwisko</label><br><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <label for="l2name">Jak oceniasz moja strone</label><br><br>
+                    <input type="radio" id="html" name="fav_language" value="HTML">
+                    <label for="html">Bardzo Dobra</label>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Calkiem Dobra</label>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                    <label for="javascript">Slaba</label><br><br>
+                    <label for="fname">Opinia na temat strony:</label><br><br>
+                    <textarea type="text" id="fname" name="fname"></textarea><br><br>
+                  </form> 
               </section>
           </div>
     </main>

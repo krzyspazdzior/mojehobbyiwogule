@@ -87,6 +87,7 @@ main section{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    gap: 30px;
 }
 main section img{
     width: 619px;
@@ -133,4 +134,12 @@ footer h2{
 }
 .toggle-btn:hover{
     cursor: pointer;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }

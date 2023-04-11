@@ -1,21 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;700;900&display=swap');
 
 
-
 body {
     display: flex;
     flex-direction: column;
     margin:0px;
-    
-    
+
 }
 body *{
     box-sizing: border-box;
     font-family: 'Outfit';
     color: #FBFBFB;
+
 }
 header{
-    flex-grow: 1;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +24,6 @@ header{
 }
 h1{
 text-align: center;
-flex-grow: 2;
 margin: 0px;
 font-style: normal;
 font-weight: 900;
@@ -37,7 +35,7 @@ color: #FBFBFB;
 
 main{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     min-height: 100vh;
     width: 100%;
     background-color: #1D1313;
@@ -68,7 +66,6 @@ main{
     position: absolute;
     top: 30px;
     left: 330px;
-    
 }
 
   .toggle-btn span {
@@ -77,7 +74,7 @@ main{
     background: #786d6d;
     display: block;
     margin-top: 4px;
-}
+  }
 
   #sidebar.active {
     left: 0;
@@ -85,21 +82,21 @@ main{
 main section{
     display: flex;
     width: 100%;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
-    gap: 30px;
+    gap: 50px;
 }
 main section img{
-    width: 619px;
-    height: 465px;
+    width: 413px;
+    height: 310px;
     border-radius: 17px;
 }
 main p{
     letter-spacing: 0.1em;
     font-size: 25px;
+    width: 700px;
     text-align: center;
-    width: 600px;
 }
 a{
     text-decoration: none;
@@ -114,7 +111,7 @@ li a:hover{
 
 }
 footer{
-    flex-grow: 1;
+
     display: flex;
     width: 100%;
     height: 180px;
@@ -139,7 +136,12 @@ footer h2{
 .content{
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    gap: 50px;
+    gap: 40px;
+}
+textarea, input{
+    color: black;
+}
+textarea{
+    width: 500px;
+    height: 300px;
 }
