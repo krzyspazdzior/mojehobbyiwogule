@@ -6,6 +6,8 @@
     <title>Moje Hobby</title>
     <link rel="stylesheet" href="opinia.css">
     <script src="main.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
     <header>
@@ -32,18 +34,20 @@
           <section>
                 <h2>Przeslij Opinie</h2>
                 <form>
-                    <label for="lname">Imie i nazwisko</label><br><br>
-                    <input type="text" id="lname" name="lname"><br><br>
-                    <label for="l2name">Jak oceniasz moja strone</label><br><br>
+                    <label for="lname" class="title">Imie i nazwisko</label><br><br>
+                    <input type="text" id="lname" name="lname" required><br><br>
+                    <label for="l2name" class="title">Jak oceniasz moja strone</label><br><br>
                     <input type="radio" id="html" name="fav_language" value="HTML">
                     <label for="html">Bardzo Dobra</label>
                     <input type="radio" id="css" name="fav_language" value="CSS">
                     <label for="css">Calkiem Dobra</label>
                     <input type="radio" id="javascript" name="fav_language" value="JavaScript">
                     <label for="javascript">Slaba</label><br><br>
-                    <label for="fname">Opinia na temat strony:</label><br><br>
+                    <label for="fname" class="title">Opinia na temat strony:</label><br><br>
                     <textarea type="text" id="fname" name="fname"></textarea><br><br>
-                    <input type="submit" value="Wyslij">
+                    <div class="e">
+                    <input type="submit" value="Wyslij" id="wyslij">
+                    </div>
                   </form> 
               </section>
           </div>

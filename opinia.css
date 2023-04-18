@@ -145,3 +145,20 @@ textarea{
     width: 500px;
     height: 300px;
 }
+form{
+    border: solid 2px rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 1px 1px 25px 10px whitesmoke;
+}
+#wyslij{
+    width: 400px;
+    height: 50px;
+    font-weight: 700;
+}
+.e{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
